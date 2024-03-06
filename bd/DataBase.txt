@@ -1,0 +1,9 @@
+Create database trabalho_final;
+use trabalho_final;
+
+CREATE TABLE cadastro(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150),
+    email VARCHAR(150),
+    senha VARCHAR(100)
+);
